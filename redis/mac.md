@@ -27,6 +27,5 @@
 ##  相关资源
 
 - [Redis 官网](https://redis.io/)
-- [Redis 在线测试](http://try.redis.io/
-https://www.runoob.com/redis/redis-tutorial.html)
+- [Redis 在线测试](http://try.redis.io/)
 - [菜鸟教程](https://www.runoob.com/redis/redis-tutorial.html)
