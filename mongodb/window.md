@@ -14,7 +14,7 @@ https://pan.baidu.com/s/1Y5uTvTT9rLlOrW9HnCMp7g 密码：1ycs
 ### 安装
 
 解压安装包，选择自定义“Custom”修改安装路径为`D:\Program Files\MongoDB`，然后点击Next直到安装结束。
-![点击安装包开始安装](https://img-blog.csdn.net/20180704135447836?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![点击安装包开始安装](./img/w1.png)
 
 ![自定义选择少占用c盘](https://img-blog.csdn.net/20180704135458865?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
