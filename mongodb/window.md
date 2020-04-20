@@ -5,18 +5,19 @@
 ### 下载地址
 
 [官网传送门](https://www.mongodb.com/download-center#community)（选择适合的环境和版本，点击之后跳转到另外一注册页，请耐心等待5s左右就会跳出下载框）
-![这里写图片描述](https://img-blog.csdn.net/20180704135114378?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w1.png)
 [云盘快捷传送门](https://pan.baidu.com/s/1Y5uTvTT9rLlOrW9HnCMp7g)：
 https://pan.baidu.com/s/1Y5uTvTT9rLlOrW9HnCMp7g 密码：1ycs
 
 ### 安装
 
 解压安装包，选择自定义“Custom”修改安装路径为`D:\Program Files\MongoDB`，然后点击Next直到安装结束。
-![点击安装包开始安装](../img/w1.png)
 
-![自定义选择少占用c盘](https://img-blog.csdn.net/20180704135458865?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![点击安装包开始安装](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w2.png)
 
-![选择合适的文件夹存放](https://img-blog.csdn.net/20180704135506394?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![自定义选择少占用c盘](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w3.png)
+
+![选择合适的文件夹存放](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w4.png)
 
 ### 配置
 
@@ -33,7 +34,8 @@ mongod --dbpath D:\Program Files\MongoDB\data\db
 ```
 
 打开浏览器http://localhost:27017查看是否启动成功，成功如下图
-![这里写图片描述](https://img-blog.csdn.net/20180704140804556?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w5.png)
 
 **3-3、新建存放日志文件的文件夹**
 新建data的子文件夹log   
@@ -42,7 +44,9 @@ mongod --dbpath D:\Program Files\MongoDB\data\db
 **3-4、配置mongo.config文件**
 
 新建mongo.config文件
-![这里写图片描述](https://img-blog.csdn.net/20180704141558517?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w6.png)
+
 打开文件输入文本如下：
 
 ```
@@ -58,7 +62,7 @@ mongod 命令需要配置环境变量：电脑右击→属性→高级系统设�
 mongod --config "D:\Program Files\MongoDB\mongo.config" --install --serviceName "MongoDB"
 ```
 完成后打开服务，之后可使用net start MongoDB来启动mongodb
-![这里写图片描述](https://img-blog.csdn.net/20180704143149965?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w7.png)
 
 **3-6、报错问题整合**
 
@@ -125,10 +129,10 @@ https://pan.baidu.com/s/1Y5uTvTT9rLlOrW9HnCMp7g 密码：1ycs
 ------
 
 按照步骤选择合适路径进行安装
-![这里写图片描述](https://img-blog.csdn.net/2018070415232617?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180704152335550?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180704152342664?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180704152348757?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE2ODQ4Mzk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w8.png)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w9.png)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w10.png)
+![这里写图片描述](https://github.com/qietuniu/software-installation/blob/master/mongodb/img/w11.png)
 
 ## 简单使用
 =========
